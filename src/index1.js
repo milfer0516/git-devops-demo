@@ -5,6 +5,7 @@ const PORT = 3000;
 
 app.get('/', function(req, res) {
     res.json({"hello": "express with mongo"});
+    console.log("Making changes from branch demo");
 });
 
 app.listen(PORT, function(){
